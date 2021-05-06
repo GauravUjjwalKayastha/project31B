@@ -9,7 +9,7 @@ class Umbrella{
         };
         this.body=Bodies.circle(x,y,100,options);
         this.radius=5;
-        this.image=loadImage("images/Walking Frame/walking_1.png");
+        this.image=loadImage("walking_1.png");
 
 
         World.add(world,this.body)
